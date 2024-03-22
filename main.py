@@ -1,6 +1,9 @@
+import pandas as pd
 from multiplication import multi
 from addition import add
 from substraction import subtract
+
+
 
 if __name__=="__main__":
     a=6
@@ -10,4 +13,3 @@ if __name__=="__main__":
     print(multi(a,b))
     print(subtract(a,b))
 
-    
